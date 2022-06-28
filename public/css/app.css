@@ -1,0 +1,15 @@
+section .card ul {
+  display: flex;
+  flex: wrap;
+}
+
+section .card ul ul li {
+  list-style: none;
+  border: 1px solid red;
+  width: calc(33.3333333333% - 1rem);
+}
+
+section .card ul ul li h3 {
+  color: red;
+}
+

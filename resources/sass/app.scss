@@ -1,1 +1,26 @@
-//
+@import "partials/footer";
+
+section{
+
+    .card{
+    
+        ul{
+            display: flex;
+            flex: wrap;
+
+
+            ul li{
+                list-style: none;
+                border: 1px solid red;
+                width: calc(100% / 3 - 1rem);
+    
+            }
+            
+            ul li h3{
+                color: red;
+            }
+        }
+       
+    }
+}
+

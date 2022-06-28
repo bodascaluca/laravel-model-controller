@@ -1,15 +1,25 @@
-section .card ul {
+body {
+  background-color: olivedrab;
+}
+
+body section .card ul {
+  color: white;
   display: flex;
-  flex: wrap;
+  flex-wrap: wrap;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
-section .card ul ul li {
+body section .card ul li {
   list-style: none;
-  border: 1px solid red;
+  border: 1px solid black;
+  border-radius: 20px;
   width: calc(33.3333333333% - 1rem);
+  margin: 0.3rem;
 }
 
-section .card ul ul li h3 {
-  color: red;
+body section .card ul li:hover {
+  color: blue;
 }
 

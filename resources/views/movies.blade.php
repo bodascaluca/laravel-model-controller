@@ -11,7 +11,7 @@
     <body>
         <h1>Lista di film</h1>
     
-    <section class="">
+    <section>
         <div class="card">
             <ul>
                 @foreach ($movies as $movie)
